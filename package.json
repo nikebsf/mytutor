@@ -5,7 +5,7 @@
 	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"predeploy":"nom run build",
+		"predeploy":"npm run build",
 		"deploy": "gh-pages -d build",
 		"client-install": "npm install --prefix client",
 		"start": "node server.js",
